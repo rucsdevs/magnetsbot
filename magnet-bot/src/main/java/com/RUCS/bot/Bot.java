@@ -4,7 +4,7 @@ package com.RUCS.bot;
  * Hello world!
  *
  */
-public class App 
+public class Bot 
 {
     public static void main( String[] args )
     {
