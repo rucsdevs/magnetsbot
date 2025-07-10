@@ -1,5 +1,5 @@
 package com.RUCS.bot;
-
+//main code (generated from maven skeleton); will insert jda, bot token, and bot logic later.
 /**
  * Hello world!
  *

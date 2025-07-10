@@ -1,5 +1,5 @@
 package com.RUCS.bot;
-
+// just the test file generated from maven skeleton
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;

@@ -15,7 +15,7 @@
       <maven.compiler.source>11</maven.compiler.source>
       <maven.compiler.target>11</maven.compiler.target>
   </properties>
-
+<!-- added this cause my mvn compile wasnt working because maven was trying to compile it in java 5-->
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
