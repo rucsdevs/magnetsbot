@@ -1,4 +1,5 @@
 # magnetsbot
+This it the Java bot for RUCS
 Just creating this bot to understand the constituent processes. 
 Maybe this can be a "boilerplate" for the Java bot?
 
