@@ -91,9 +91,10 @@ public class Bot extends ListenerAdapter{ //using listeneradapter class imported
     else{
 
          String[] args = event.getMessage().getContentRaw().split("\\s+");
-        
-        if (args.length > 0 && args[0].equalsIgnoreCase("spam")) {
-            
+        String rutgersBot = "1392699249254203442";
+        String currentID = event.getJDA().getSelfUser().getId();
+        if ((args.length > 0 && args[0].equalsIgnoreCase("spam"))) {
+            if (!rutgersBot.equals(currentID)){
             Member authorMember = event.getMember();
             MessageChannel channel = event.getChannel();
 
@@ -130,6 +131,9 @@ public class Bot extends ListenerAdapter{ //using listeneradapter class imported
                 channel.sendMessage(mention)
                         .queueAfter(3, TimeUnit.SECONDS);
             }
+        }}
+        else{ //Spam command is set to not work on the Rutgers bot, but it can work on alternate bots.
+            event.getChannel().sendMessage("You can't use that command on me, although that command lies within some...");
         }
     }
 
