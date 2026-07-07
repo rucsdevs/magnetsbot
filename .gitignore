@@ -1,0 +1,6 @@
+target/
+dependency-reduced-pom.xml
+config.properties
+*.db
+*.iml
+.idea/
